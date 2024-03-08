@@ -1,0 +1,25 @@
+{
+  "name": "stock-price-live-feed",
+  "version": "1.0.3",
+  "description": "Live Stock Price is an NPM package that provides live stock data prices for a given symbol. It fetches the stock price from Yahoo Finance using web scraping techniques.",
+  "main": "index.js",
+  "keywords": [
+    "stock",
+    "finance",
+    "stock price",
+    "live data",
+    "market"
+  ],
+  "scripts": {
+    "test": "node test.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "cheerio": "^1.0.0-rc.12"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/prnnys/stock-price-live-feed.git"
+  }
+}
